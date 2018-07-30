@@ -10,7 +10,6 @@
 
 ------------------------------------------------------------------------
 Development Tech: Java
-VCS: Git
 
 ## Social Information
 
