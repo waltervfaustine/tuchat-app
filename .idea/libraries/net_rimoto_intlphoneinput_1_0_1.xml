@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="net.rimoto:intlphoneinput-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/intlphoneinput-1.0.1.aar/d1925dac1ac2025726f3c1cc9ecc5704/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/intlphoneinput-1.0.1.aar/d1925dac1ac2025726f3c1cc9ecc5704/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.rimoto/intlphoneinput/1.0.1/7b240abb83e7ca8b3ddb37d7c166c9ec61eb8036/intlphoneinput-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
