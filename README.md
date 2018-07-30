@@ -17,13 +17,11 @@ Walter V. Faustine(Twitter) – [@walterplatnumz](https://twitter.com/walterplat
 
 Walter V. Faustine(Instagram) – [@Instagram](https://instagram.com/walterplatnumz) – walterplatnumz@gmail.com
 
-Distributed under the Apache License 2.0 license. See ``LICENSE`` for more information.
+Distributed under the MIT License license. See ``LICENSE`` for more information.
 
-[https://github.com/walterplatnumz/cainam-todos](https://github.com/walterplatnumz/cainam-todos)
+[https://github.com/walterplatnumz/tuchat-app](https://github.com/walterplatnumz/tuchat-app)
 
-
-<img width="400" align="center" src="../../raw/master/cainam/cainamconv.jpg" />
-<img width="400" align="center" src="../../raw/master/cainam/cainamconv.jpg" />
+<img width="500" style="text-align: center; " src="../../raw/master/cainam/cainamconv.jpg" />
 
 ## License
 
