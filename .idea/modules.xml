@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TuChat.iml" filepath="$PROJECT_DIR$/TuChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuchat-app.iml" filepath="$PROJECT_DIR$/tuchat-app.iml" />
     </modules>
   </component>
 </project>
