@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_call"
+        android:title="Call"
+        android:icon="@mipmap/ic_call_white_24dp"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_sendsms"
+        android:title="Send SMS"
+        android:icon="@mipmap/ic_sms_white_24dp"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_mute"
+        android:title="Mute"
+        android:icon="@mipmap/ic_insert_photo_white_24dp"
+        />
+
+    <item android:id="@+id/action_block"
+        android:title="Block"
+        android:icon="@mipmap/ic_insert_photo_white_24dp"
+        />
+
+    <item android:id="@+id/action_report"
+        android:title="Report User"
+        android:icon="@mipmap/ic_insert_photo_white_24dp"
+        />
+
+    <item android:id="@+id/action_save_image_to_gallery"
+        android:title="Save Profile Image"
+        android:icon="@mipmap/ic_insert_photo_white_24dp"
+        />
+
+</menu>

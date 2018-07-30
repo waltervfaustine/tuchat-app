@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/homeToolbarStyle</item>
+        <item name="android:popupMenuStyle">@color/colorWhite</item>
+       <!--> <item name="android:popupMenuStyle">@style/CustomOverflowMenuBackground</item> <-->
+        <item name="toolbarNavigationButtonStyle">@style/homeToolbarNavigationButtonStyle</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!--> <item name="android:popupMenuStyle">@style/CustomOverflowMenuBackground</item> <-->
+    </style>
+
+    <!-->
+    <style name="CustomOverflowMenuBackground" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+    <-->
+
+    <style name="popUpMenuTheme" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:popupMenuStyle">@android:color/white</item>
+    </style>
+
+    <style name="homeToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="contentInsetLeft">12dp</item>
+        <item name="contentInsetStart">12dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="homeToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="FriendToolbarStyle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorReceiver</item>
+        <item name="android:textSize">5dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cainam.tuchat.fragment.FriendFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mine_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/friends_floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/man_profile"
+        app:elevation="15dp"
+        app:fabSize="auto"
+        app:rippleColor="@color/colorReceiver">
+
+    </android.support.design.widget.FloatingActionButton>
+
+</FrameLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.cainam.tuchat.activity.SignInActivity">
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topImage"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="serif-monospace"
+        android:text="TuChat App"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/app_name"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="23dp"
+        android:hint="Email">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-condensed" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_email"
+        android:layout_marginEnd="10dp"
+        android:hint="Password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:layout_alignStart="@+id/login_email">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/google_signin_button"
+        android:layout_below="@+id/login_password"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishing_account_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:id="@+id/finishing_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/google_signin_button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="Need New Account?"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

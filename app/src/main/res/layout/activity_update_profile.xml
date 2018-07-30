@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/update_profile_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cainam.tuchat.activity.UpdateProfileActivity">
+
+    <include
+        android:id="@+id/update_profile_toolbar"
+        layout="@layout/application_toolbar"
+        style="@style/homeToolbarStyle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_view"
+        android:layout_below="@+id/update_profile_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_below="@+id/update_profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_layout"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/update_profile_another_layout"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/update_profile_layout"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/update_profile_fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/update_profile_image"
+                    android:layout_alignEnd="@+id/update_profile_image"
+                    android:background="@android:color/holo_green_light"
+                    android:clickable="true"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:civ_border_color="@color/colorBlack"
+                    app:civ_border_width="10dp"
+                    app:fabSize="normal"
+                    app:srcCompat="@mipmap/ic_insert_photo_white_24dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/update_profile_image"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_below="@+id/scroll_view"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/profile_icon"
+                    app:civ_border_color="@color/colorBlack"
+                    app:civ_border_width="0.2dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/update_profile_another_layout"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/fab_profile_image_chooser"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/update_profile_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/update_profile_image"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_account_circle_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Name"
+                            android:inputType="textPersonName"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/update_profile_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/update_profile_name"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_account_circle_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Username"
+                            android:inputType="textPersonName"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/update_profile_website"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/update_profile_username"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_explore_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Website"
+                            android:inputType="textWebEmailAddress"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/update_profile_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/update_profile_website"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_format_quote_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Description "
+                            android:inputType="textMultiLine" />
+
+                        <EditText
+                            android:id="@+id/update_profile_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/update_profile_description"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_email_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Email "
+                            android:inputType="textEmailAddress" />
+
+                        <EditText
+                            android:id="@+id/update_profile_phonenumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/update_profile_email"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@mipmap/ic_web_black_24dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-condensed"
+                            android:hint="Phonecall"
+                            android:inputType="phone" />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/fab_profile_image_chooser"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/update_profile_gender_female"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Female"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/update_profile_gender_male"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Male"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

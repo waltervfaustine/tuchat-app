@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "759939800271",
+    "firebase_url": "https://tuchat-83446.firebaseio.com",
+    "project_id": "tuchat-83446",
+    "storage_bucket": "tuchat-83446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759939800271:android:7999ec3e2226304c",
+        "android_client_info": {
+          "package_name": "com.cainam.tuchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759939800271-ivcjedt2lbi7rpli3mhtep5m3g0gb26g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cainam.tuchat",
+            "certificate_hash": "71b0d433efd15a94b10655619c5da1d6a650fb78"
+          }
+        },
+        {
+          "client_id": "759939800271-k83a329hr62tr8gsmj05mill4i9q1jdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJiblLelCfjDpkCZ6rDmdsXs6AC5FdzmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759939800271-k83a329hr62tr8gsmj05mill4i9q1jdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

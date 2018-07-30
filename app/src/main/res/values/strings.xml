@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TuChat</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_account_setting">AccountSettingActivity</string>
+    <string name="application_name">Tuchat</string>
+    <string name="chat"><b>Chat</b></string>
+    <string name="friend"><b>Friends</b></string>
+    <string name="follow"><b>Follows</b></string>
+</resources>
