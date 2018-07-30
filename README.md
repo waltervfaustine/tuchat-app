@@ -22,8 +22,7 @@ Distributed under the Apache License 2.0 license. See ``LICENSE`` for more infor
 [https://github.com/walterplatnumz/cainam-todos](https://github.com/walterplatnumz/cainam-todos)
 
 
-<img src="../../raw/master/cainam/cainammobile.gif" />
-<img src="../../raw/master/cainam/cainamconv.jpg" />
+<img width="400" align="center" src="../../raw/master/cainam/cainamconv.jpg" />
 
 ## License
 
