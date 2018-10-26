@@ -13,9 +13,9 @@ Development Tech: Java
 
 ## Social Information
 
-Walter V. Faustine(Twitter) – [@walterplatnumz](https://twitter.com/walterplatnumz) – walterplatnumz@gmail.com
+Walter V. Faustine(Twitter) – [@waltervfaustine](https://twitter.com/waltervfaustine) – waltervfaustine@gmail.com
 
-Walter V. Faustine(Instagram) – [@Instagram](https://instagram.com/walterplatnumz) – walterplatnumz@gmail.com
+Walter V. Faustine(Instagram) – [@Instagram](https://instagram.com/walterplatnumz) – waltervfaustine@gmail.com
 
 Distributed under the MIT License license. See ``LICENSE`` for more information.
 
